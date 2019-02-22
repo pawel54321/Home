@@ -1,15 +1,17 @@
 {
-  "main.css": "/home/static/css/main.1d8aa9ca.chunk.css",
-  "main.js": "/home/static/js/main.8ab1c42f.chunk.js",
-  "main.js.map": "/home/static/js/main.8ab1c42f.chunk.js.map",
+  "main.css": "/home/static/css/main.6c8aa988.chunk.css",
+  "main.js": "/home/static/js/main.25a30d78.chunk.js",
+  "main.js.map": "/home/static/js/main.25a30d78.chunk.js.map",
   "runtime~main.js": "/home/static/js/runtime~main.5fdf7f86.js",
   "runtime~main.js.map": "/home/static/js/runtime~main.5fdf7f86.js.map",
   "static/css/2.0983b4ca.chunk.css": "/home/static/css/2.0983b4ca.chunk.css",
-  "static/js/2.41d474b4.chunk.js": "/home/static/js/2.41d474b4.chunk.js",
-  "static/js/2.41d474b4.chunk.js.map": "/home/static/js/2.41d474b4.chunk.js.map",
+  "static/js/2.8448b975.chunk.js": "/home/static/js/2.8448b975.chunk.js",
+  "static/js/2.8448b975.chunk.js.map": "/home/static/js/2.8448b975.chunk.js.map",
   "index.html": "/home/index.html",
-  "precache-manifest.6e61fb454005f7ac825a61a372d52d0d.js": "/home/precache-manifest.6e61fb454005f7ac825a61a372d52d0d.js",
+  "precache-manifest.5bec2211d524f67ff0025eb5a09672df.js": "/home/precache-manifest.5bec2211d524f67ff0025eb5a09672df.js",
   "service-worker.js": "/home/service-worker.js",
   "static/css/2.0983b4ca.chunk.css.map": "/home/static/css/2.0983b4ca.chunk.css.map",
-  "static/css/main.1d8aa9ca.chunk.css.map": "/home/static/css/main.1d8aa9ca.chunk.css.map"
+  "static/css/main.6c8aa988.chunk.css.map": "/home/static/css/main.6c8aa988.chunk.css.map",
+  "static/media/Równanie_Kwadratowe_-_Screenshot.jpg": "/home/static/media/Równanie_Kwadratowe_-_Screenshot.23749aaa.jpg",
+  "static/media/The_Escaping_Balls_-_Screenshot.jpg": "/home/static/media/The_Escaping_Balls_-_Screenshot.6eb7f41c.jpg"
 }
