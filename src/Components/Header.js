@@ -20,8 +20,8 @@ class Header extends Component {
         //App._onSetLanguage(countryCode.toLowerCase());
         if (countryCode.toLowerCase()==='pl')
             new App()._onSetLanguagePL();
-        else if (countryCode.toLowerCase()==='us')
-            new App()._onSetLanguageUS();
+        else if (countryCode.toLowerCase()==='gb')
+            new App()._onSetLanguageGB();
 
 
     }
@@ -42,7 +42,7 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <ReactFlagsSelect
-                                        countries={["US", "PL"]}
+                                        countries={["GB", "PL"]}
                                         defaultCountry={strings.getLanguage().toUpperCase()}
                                         showSelectedLabel={false}
                                         showOptionLabel={false}

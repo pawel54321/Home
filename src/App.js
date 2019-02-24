@@ -12,7 +12,7 @@ import LocalizedStrings from 'react-localization';
 
 export let strings = new LocalizedStrings({
 
-    us: {
+    gb: {
         heading_Apps: "Apps",
         button_read_more: "Read More",
 
@@ -63,10 +63,10 @@ class App extends Component {
         }*/
         history.push();
     }
-    _onSetLanguageUS() {
+    _onSetLanguageGB() {
 
        // console.log("'" + language + "'");
-        strings.setLanguage('us');
+        strings.setLanguage('gb');
         /*
         if (this._isMounted) {
             this.setState({});
