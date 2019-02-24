@@ -5,8 +5,26 @@ import {
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
+import App, { strings } from '../App';
+
+import ReactFlagsSelect from 'react-flags-select';
+//import css module
+import 'react-flags-select/css/react-flags-select.css'
+
 class Header extends Component {
 
+    onSelectFlag(countryCode) {
+
+        //console.log(countryCode.toLowerCase());
+        //strings.setLanguage(countryCode.toLowerCase());
+        //App._onSetLanguage(countryCode.toLowerCase());
+        if (countryCode.toLowerCase()==='pl')
+            new App()._onSetLanguagePL();
+        else if (countryCode.toLowerCase()==='us')
+            new App()._onSetLanguageUS();
+
+
+    }
     render() {
         return (
             <nav>
@@ -17,10 +35,20 @@ class Header extends Component {
                         <Collapse Collapse isOpen={true} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink><Link to="/apps">Apps</Link></NavLink>
+                                    <NavLink><Link to="/apps">{strings.heading_Apps}</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink><Link to="/social-media">Social Media</Link></NavLink>
+                                    <NavLink><Link to="/social-media">{strings.heading_SocialMedia}</Link></NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <ReactFlagsSelect
+                                        countries={["US", "PL"]}
+                                        defaultCountry={strings.getLanguage().toUpperCase()}
+                                        showSelectedLabel={false}
+                                        showOptionLabel={false}
+                                        selectedSize={18}
+                                        optionsSize={14}
+                                        onSelect={this.onSelectFlag}/>
                                 </NavItem>
                             </Nav>
                         </Collapse>

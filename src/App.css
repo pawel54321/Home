@@ -61,5 +61,7 @@
     text-align: center;
 }
 
-
-
+.card-deck
+{
+    margin: 0px !important;
+}

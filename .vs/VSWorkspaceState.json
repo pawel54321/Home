@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\Components"
+    "\\src\\Components",
+    "\\src\\Images"
   ],
-  "SelectedNode": "\\src\\index.css",
+  "SelectedNode": "\\src\\Components\\Apps.js",
   "PreviewInSolutionExplorer": false
 }
