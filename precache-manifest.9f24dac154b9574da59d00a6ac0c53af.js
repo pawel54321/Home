@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "398bcf751f8e43722092f9b0f10515c9",
-    "url": "/home/static/media/kw.398bcf75.svg"
+    "revision": "5adfd676d31e3b286f072b71c639378c",
+    "url": "/home/static/media/kr.5adfd676.svg"
   },
   {
-    "revision": "954bb17426d67636eac5",
-    "url": "/home/static/css/main.3fc4c093.chunk.css"
+    "revision": "12fb2152c3592e6addf9",
+    "url": "/home/static/css/main.533bf855.chunk.css"
   },
   {
     "revision": "5fdf7f86495bc64854ab",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "b1bafc55996f804f3311",
-    "url": "/home/static/js/2.b1bafc55.chunk.js"
+    "revision": "20711258a89d00c107d5",
+    "url": "/home/static/js/2.20711258.chunk.js"
   },
   {
     "revision": "a0b36ca3cc89893585d928664ca8689b",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "c70ff4c4e28c2d9f437404f93cbc1bb8",
     "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot.c70ff4c4.jpg"
+  },
+  {
+    "revision": "f1a94204c1c0e05991dd4b45ef51b65f",
+    "url": "/home/static/media/Candy_Gift_-_Screenshot.f1a94204.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -456,12 +460,12 @@ self.__precacheManifest = [
     "url": "/home/static/media/kp.69b9a975.svg"
   },
   {
-    "revision": "5adfd676d31e3b286f072b71c639378c",
-    "url": "/home/static/media/kr.5adfd676.svg"
+    "revision": "12fb2152c3592e6addf9",
+    "url": "/home/static/js/main.12fb2152.chunk.js"
   },
   {
-    "revision": "954bb17426d67636eac5",
-    "url": "/home/static/js/main.954bb174.chunk.js"
+    "revision": "398bcf751f8e43722092f9b0f10515c9",
+    "url": "/home/static/media/kw.398bcf75.svg"
   },
   {
     "revision": "b7acd796583d3b0eb1c89334c6761a94",
@@ -912,11 +916,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/zm.acad9df9.svg"
   },
   {
-    "revision": "b1bafc55996f804f3311",
+    "revision": "20711258a89d00c107d5",
     "url": "/home/static/css/2.d438b34f.chunk.css"
   },
   {
-    "revision": "70d1f2a72926eea08c46e0d5046be55f",
+    "revision": "e27a745b388050954fd1d75e51b911f6",
     "url": "/home/index.html"
   }
 ];
