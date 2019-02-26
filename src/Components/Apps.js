@@ -9,8 +9,10 @@ import {
 
 import TEB_S from '../Images/The_Escaping_Balls_-_Screenshot.jpg';
 import RK_S from '../Images/Równanie_Kwadratowe_-_Screenshot.jpg';
+import CG_S from '../Images/Candy_Gift_-_Screenshot.jpg';
 
 import { strings } from '../App'
+
 
 class Apps extends Component {
     
@@ -19,10 +21,9 @@ class Apps extends Component {
             <div style={{ float: 'left' }}>
                 <h4 style={{ paddingLeft: '30px', paddingTop: '30px' }}>{strings.heading_Apps}</h4>
                 <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
-                
                     <Card className="Card">
-                        <iframe width="100%" height="63%" src="https://www.youtube.com/embed/uXwikvBAanY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                      
-                    <CardBody>
+                        <CardImg top width="100%" src={CG_S} alt="Image" />
+                        <CardBody>
                         <CardTitle>'Candy Gift'</CardTitle>
                         <CardSubtitle>Android</CardSubtitle>
                             <CardText></CardText>

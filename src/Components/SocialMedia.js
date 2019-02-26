@@ -15,9 +15,10 @@ class SocialMedia extends Component {
 
     render() {
         return (
-            <div style={{ float: 'left' }}>
+            <div style={{ clear: 'both' }}>
                 <h4 style={{ paddingLeft: '30px', paddingTop: '30px' }}>{strings.heading_SocialMedia}</h4>
-            <CardDeck style={{ padding: '30px', float: 'left' }}>
+              
+            <CardDeck style={{ padding: '30px', float: 'middle' }}>
                     <Card className="Card">
                         <center><SocialIcon style={{ marginTop: '25px', height: 100, width: 100 }} url="https://play.google.com/store/apps/developer?id=Pawel+Warcaba" /></center>
                         {/*<CardImg top width="100%" src="" alt="Image" />*/}
@@ -48,7 +49,8 @@ class SocialMedia extends Component {
                             {/* <Button color="success" href="https://github.com/pawel54321?tab=repositories">Read More</Button>*/}
                     </CardBody>
                 </Card>
-                </CardDeck>
+                    </CardDeck>
+                   
             </div>
         
         );

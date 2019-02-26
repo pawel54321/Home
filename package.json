@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://pawel54321.github.io/home/",
   "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
     "bootstrap": "^4.3.1",
     "react": "^16.8.2",
     "react-animated-slider": "^1.1.4",

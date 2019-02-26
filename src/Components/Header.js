@@ -1,6 +1,6 @@
 ﻿import React, { Component } from 'react';
 import {
-    Navbar, NavbarBrand, //NavbarToggler, 
+    Navbar, NavbarBrand, NavbarToggler, 
     Collapse, Nav, NavItem, NavLink
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -13,26 +13,49 @@ import 'react-flags-select/css/react-flags-select.css'
 
 class Header extends Component {
 
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
+
     onSelectFlag(countryCode) {
 
         //console.log(countryCode.toLowerCase());
         //strings.setLanguage(countryCode.toLowerCase());
         //App._onSetLanguage(countryCode.toLowerCase());
-        if (countryCode.toLowerCase()==='pl')
+        if (countryCode.toLowerCase() === 'pl') {
+          
             new App()._onSetLanguagePL();
-        else if (countryCode.toLowerCase()==='gb')
+        }
+        else if (countryCode.toLowerCase() === 'gb') {
+           
             new App()._onSetLanguageGB();
+        }
 
 
     }
+
+
+
     render() {
         return (
             <nav>
                 <header className="App-header">
                     <Navbar color="light" light expand="md">
                         <NavbarBrand><Link to="/home"><i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} /></Link></NavbarBrand>
-                        {/*<NavbarToggler />*/}
-                        <Collapse Collapse isOpen={true} navbar>
+
+                        <NavbarToggler onClick={this.toggle} />
+
+                        <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <NavLink><Link to="/apps">{strings.heading_Apps}</Link></NavLink>
