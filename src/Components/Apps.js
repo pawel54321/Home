@@ -18,7 +18,7 @@ class Apps extends Component {
     
     render() {
         return (
-            <div style={{ float: 'left' }}>
+            <div style={{ float: 'left', paddingBottom: '30px' }}>
                 <h4 style={{ paddingLeft: '30px', paddingTop: '30px' }}>{strings.heading_Apps}</h4>
                 <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
                     <Card className="Card">

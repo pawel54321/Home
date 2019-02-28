@@ -23,7 +23,7 @@ export let strings = new LocalizedStrings({
         type_subtitle_2: "My Channel",
         type_subtitle_3: "Other Team Projects",
 
-        datetime:"Last update: 26/2/2019 22:41",
+        datetime:"Last update: 1/3/2019 00:12",
     },
     pl: {
         heading_Apps: "Aplikacje",
@@ -34,29 +34,13 @@ export let strings = new LocalizedStrings({
         type_subtitle_2: "Mój Kanał",
         type_subtitle_3: "Inne Projekty Zespołowe",
 
-        datetime: "Ostatnia aktualizacja: 26.02.2019 22:41 ",
+        datetime: "Ostatnia aktualizacja: 1.03.2019 00:12 ",
     }
 });
 
 
 class App extends Component {  
-    /*
-    _isMounted = false;
-
-    constructor(props) {
-        super(props);
-
-        this.state = {}
-    }
-
-    componentDidMount() {
-        this._isMounted = true;
-    }
-
-    componentWillUnmount() {
-        this._isMounted = false;
-    }*/
-
+    
 
     _onSetLanguagePL() {
  
@@ -119,9 +103,10 @@ class App extends Component {
                 <Route exact path="/apps" component={Apps} />
                 <Route exact path="/social-media" component={SocialMedia} />
 
-                {/* <Route exact path="/*" component={NotFound} />*/} 
-                {/* (-) URL - nie moge użyć: BrowserRouter*/}
-             
+                {/* <Route exact path="/*" component={NotFound} /> */} 
+                {/* (-) URL - nie moge użyć: BrowserRouter */}
+                {/* Czcionka stopka, Czcionka platforma */}
+                {/* 3 Fotki kropki do zmieniania*/}
             </Switch>
         );
     }
