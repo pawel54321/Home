@@ -3,8 +3,9 @@
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import { BrowserRouter, Router, Route, Switch /*, Link*/ } from 'react-router-dom';
-import history from './history';
+import { /*BrowserRouter, Router,*/ Route, Switch, HashRouter  /*, Link*/ } from 'react-router-dom';
+//import history from './history';
+
 
 import Apps from './Components/Apps';
 import SocialMedia from './Components/SocialMedia';
@@ -23,7 +24,9 @@ export let strings = new LocalizedStrings({
         type_subtitle_2: "My Channel",
         type_subtitle_3: "Other Team Projects",
 
-        datetime:"Last update: 1/3/2019 00:12",
+        subtitle_NotFound: "The page with the given URL does not exist.",
+
+        datetime:"Last update: 1/3/2019 01:20",
     },
     pl: {
         heading_Apps: "Aplikacje",
@@ -34,55 +37,46 @@ export let strings = new LocalizedStrings({
         type_subtitle_2: "Mój Kanał",
         type_subtitle_3: "Inne Projekty Zespołowe",
 
-        datetime: "Ostatnia aktualizacja: 1.03.2019 00:12 ",
+        subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
+
+        datetime: "Ostatnia aktualizacja: 1.03.2019 01:20",
     }
 });
 
 
 class App extends Component {  
     
-
     _onSetLanguagePL() {
  
         //console.log("'" + language + "'");
-        strings.setLanguage('pl');
-        /*
-        if (this._isMounted) {
-            this.setState({});
-        }*/
-
-        //this.setState({});
-        history.push();
+        strings.setLanguage('pl'); 
+      //  history.push();
+     
     }
     _onSetLanguageGB() {
 
-       // console.log("'" + language + "'");
+       //console.log("'" + language + "'");
         strings.setLanguage('gb');
-        /*
-        if (this._isMounted) {
-            this.setState({});
-        }*/
-
-       // this.setState({});
-        history.push();
+        // history.push();
+       
     }
 
     render() {
         return (
-            <Router history={history} >
-                <div className="App">
-                    <Header />
-                    <main>
-                        {this.Ruty()}              
-                    </main>
-                    <Footer />
-                </div>
-            </Router>
+                <HashRouter>     
+                    <div className="App">
+                        <Header />
+                            <main>
+                                {this.Routy()}              
+                            </main>
+                        <Footer />
+                    </div>
+                </HashRouter >
         );
     }
 
 
-    Ruty = () => {
+    Routy = () => {
         return (
             <Switch>
                 <Route exact path="/" render={props =>
@@ -103,10 +97,11 @@ class App extends Component {
                 <Route exact path="/apps" component={Apps} />
                 <Route exact path="/social-media" component={SocialMedia} />
 
-                {/* <Route exact path="/*" component={NotFound} /> */} 
-                {/* (-) URL - nie moge użyć: BrowserRouter */}
-                {/* Czcionka stopka, Czcionka platforma */}
-                {/* 3 Fotki kropki do zmieniania*/}
+                <Route exact path="/*" component={NotFound} /> 
+
+                {/* '#' w URL + Spolszczenie */}
+                {/* Zmienić czcionka dla stopki i platform*/}
+                {/* Trzy fotki w galerii - "kropki" do zmieniania*/}
             </Switch>
         );
     }

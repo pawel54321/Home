@@ -1,5 +1,6 @@
 ﻿import React, { Component } from 'react';
 
+import { strings } from '../App';
 
 class NotFound extends Component {
 
@@ -8,8 +9,8 @@ class NotFound extends Component {
 
             <div>
                 <center>
-                <h2>Not Found</h2>
-                Strona o podanym adresie URL nie istnieje.
+                    <h2>Not Found</h2>
+                    {strings.subtitle_NotFound}
                 </center>    
             </div>
 
