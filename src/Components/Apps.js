@@ -36,7 +36,7 @@ class Apps extends Component {
                         <CardTitle>'The Escaping Balls'</CardTitle>
                         <CardSubtitle>Desktop | Multiplayer</CardSubtitle>
                         <CardText></CardText>
-                            <Button color="success" href="https://github.com/pawel54321/Game---The-Escaping-Balls---Multiplayer">{strings.button_read_more}</Button>
+                            <Button color="success" href="https://github.com/pawel54321/Game_-_The_Escaping_Balls_-_Multiplayer">{strings.button_read_more}</Button>
                     </CardBody>
                 </Card>
                     <Card className="Card">
