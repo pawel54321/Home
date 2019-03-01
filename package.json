@@ -2,7 +2,7 @@
   "name": "home",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pawel54321.github.io/home/",
+  "homepage": "https://pawel54321.github.io/",
   "dependencies": {
     "@version/react-router-v3": "^1.0.0",
     "bootstrap": "^4.3.1",
