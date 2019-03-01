@@ -26,7 +26,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 1/3/2019 13:33",
+        datetime:"Last update: 1/3/2019 13:50",
     },
     pl: {
         heading_Apps: "Aplikacje",
@@ -39,7 +39,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 01.03.2019 13:33",
+        datetime: "Ostatnia aktualizacja: 01.03.2019 13:50",
     }
 });
 
@@ -106,14 +106,6 @@ class App extends Component {
                         <SocialMedia />
                     </div>}
                 />
-
-                <Route exact path="/home" render={props =>
-                    <div>
-                        <Apps />
-                        <SocialMedia />
-                    </div>}
-                />
-
                 <Route exact path="/apps" component={Apps} />
                 <Route exact path="/social-media" component={SocialMedia} />
 

@@ -51,7 +51,7 @@ class Header extends Component {
             <nav>
                 <header className="App-header">
                     <Navbar color="light" light expand="md">
-                        <NavbarBrand><Link to="/home"><i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} /></Link></NavbarBrand>
+                        <NavbarBrand><Link to="/"><i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} /></Link></NavbarBrand>
 
                         <NavbarToggler onClick={this.toggle} />
 
