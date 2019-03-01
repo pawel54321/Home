@@ -53,9 +53,7 @@
     height: 40vmin;
 }
 
-.card-subtitle {
-    font-size: calc(1px + 1.7vmin);
-}
+
 
 .Card {
     text-align: center;
@@ -70,8 +68,15 @@ img {
     pointer-events: none;
 }
 
+.card-subtitle {
+    font-size: 12px;
+}
 footer {
-    font-size: calc(1px + 1.7vmin);
+    font-size:  12px;
     padding-right: 1%;
     float: right;
+}
+
+.NotFoundClass {
+    margin-top: 10%;
 }

@@ -26,7 +26,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 1/3/2019 01:20",
+        datetime:"Last update: 1/3/2019 13:33",
     },
     pl: {
         heading_Apps: "Aplikacje",
@@ -39,42 +39,63 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 1.03.2019 01:20",
+        datetime: "Ostatnia aktualizacja: 01.03.2019 13:33",
     }
 });
 
 
-class App extends Component {  
-    
-    _onSetLanguagePL() {
- 
-        //console.log("'" + language + "'");
-        strings.setLanguage('pl'); 
-      //  history.push();
-     
-    }
+class App extends Component {
+
     _onSetLanguageGB() {
 
-       //console.log("'" + language + "'");
-        strings.setLanguage('gb');
-        // history.push();
-       
+        //console.log("'" + language + "'");
+        //strings.setLanguage('gb');
+        //history.push();
+
+        if (strings.getLanguage() !== 'gb') {
+            localStorage.setItem('language', 'gb');
+            window.location.reload();
+        }
+    }
+    _onSetLanguagePL() {
+
+        //console.log("'" + language + "'");
+        //strings.setLanguage('pl');
+        //history.push();
+
+        if (strings.getLanguage() !== 'pl') {
+            localStorage.setItem('language', 'pl');
+            window.location.reload();
+        }
+    }
+
+    Language = () => {
+
+
+        if (localStorage.getItem('language') === 'pl') {
+            strings.setLanguage('pl');
+        }
+
+        else {
+            strings.setLanguage('gb');
+        }
+
     }
 
     render() {
         return (
-                <HashRouter>     
-                    <div className="App">
-                        <Header />
-                            <main>
-                                {this.Routy()}              
-                            </main>
-                        <Footer />
-                    </div>
-                </HashRouter >
+            <HashRouter>
+                <div className="App">
+                    <Header />
+                    <main>
+                        {this.Routy()}
+                        {this.Language()}
+                    </main>
+                    <Footer />
+                </div>
+            </HashRouter >
         );
     }
-
 
     Routy = () => {
         return (
@@ -84,8 +105,7 @@ class App extends Component {
                         <Apps />
                         <SocialMedia />
                     </div>}
-                    />
-               
+                />
 
                 <Route exact path="/home" render={props =>
                     <div>
@@ -97,14 +117,14 @@ class App extends Component {
                 <Route exact path="/apps" component={Apps} />
                 <Route exact path="/social-media" component={SocialMedia} />
 
-                <Route exact path="/*" component={NotFound} /> 
+                <Route exact path="/*" component={NotFound} />
 
-                {/* '#' w URL + Spolszczenie */}
-                {/* Zmienić czcionka dla stopki i platform*/}
-                {/* Trzy fotki w galerii - "kropki" do zmieniania*/}
+                {/* '#' w URL */}
+
+                {/* Trzy fotki w galerii - "kropki" do zmieniania */}
             </Switch>
         );
     }
-}
 
+}
 export default App;
