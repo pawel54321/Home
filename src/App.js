@@ -6,7 +6,6 @@ import Footer from './Components/Footer';
 import { /*BrowserRouter, Router,*/ Route, Switch, HashRouter  /*, Link*/ } from 'react-router-dom';
 //import history from './history';
 
-
 import Apps from './Components/Apps';
 import SocialMedia from './Components/SocialMedia';
 import NotFound from './Components/NotFound';
@@ -16,6 +15,14 @@ import LocalizedStrings from 'react-localization';
 export let strings = new LocalizedStrings({
 
     gb: {
+        /*
+        description_Home: "Home - Portfolio.",
+        description_Apps: "Apps - Portfolio.",
+        description_SocialMedia: "Social Media Page - Portfolio.",
+        */
+
+        heading_Home: "Home",
+
         heading_Apps: "Apps",
         button_read_more: "Read More",
 
@@ -26,9 +33,17 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 1/3/2019 14:46",
+        datetime:"Last update: 11/3/2019 23:34",
     },
     pl: {
+        /*
+        description_Home: "Strona Główna - Portfolio.",
+        description_Apps: "Aplikacje - Portfolio.",
+        description_SocialMedia: "Strona Mediów Społecznościowych - Portfolio.",
+        */
+
+        heading_Home: "Strona Główna",
+
         heading_Apps: "Aplikacje",
         button_read_more: "Czytaj Więcej",
 
@@ -39,7 +54,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 01.03.2019 14:46",
+        datetime: "Ostatnia aktualizacja: 11.03.2019 23:34",
     }
 });
 
@@ -54,7 +69,7 @@ class App extends Component {
 
         if (strings.getLanguage() !== 'gb') {
             localStorage.setItem('language', 'gb');
-            window.location.reload();
+             window.location.reload();
         }
     }
     _onSetLanguagePL() {
@@ -111,9 +126,8 @@ class App extends Component {
 
                 <Route exact path="/*" component={NotFound} />
 
-                {/* '#' w URL */}
-
-                {/* Trzy fotki w galerii - "kropki" do zmieniania */}
+                {/* Data ostatniej aktualizacji - aplikacje */}
+                {/* Full-Screen - Screenshots [pointer] */}
             </Switch>
         );
     }

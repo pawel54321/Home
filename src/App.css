@@ -66,6 +66,8 @@
 
 img {
     pointer-events: none;
+
+    user-select: none;
 }
 
 .card-subtitle {
@@ -79,4 +81,21 @@ footer {
 
 .NotFoundClass {
     margin-top: 10%;
+}
+
+a.links {
+    color: #007bff !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+a.links:hover {
+    color: #0056b3 !important;
+    text-decoration: underline !important;
+}
+
+.control-dots
+{
+    width:90% !important;
 }

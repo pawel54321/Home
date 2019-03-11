@@ -11,14 +11,16 @@
     "react-dom": "^16.8.2",
     "react-flags-select": "^1.1.10",
     "react-localization": "^1.0.13",
+    "react-meta-tags": "^0.7.4",
+    "react-redux": "^5.0.7",
+    "react-responsive-carousel": "^3.1.47",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "2.1.5",
     "react-social-icons": "^4.1.0",
     "reactstrap": "^7.1.0",
-    "react-redux": "^5.0.7",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "redux": "^3.7.2",
-    "react-router": "^4.2.0"
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",

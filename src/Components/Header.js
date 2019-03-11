@@ -43,25 +43,56 @@ class Header extends Component {
 
 
     }
+    /*
+    ChangeLinkToA_1() {
+        window.location.reload();
+        window.location.href = "/";
+    }
 
+    ChangeLinkToA_2() {
+        window.location.reload();
+        window.location.href = "/apps";
+    }
 
-
+    ChangeLinkToA_3() {
+        window.location.reload();
+        window.location.href = "/social-media";
+    }
+    */
     render() {
         return (
             <nav>
                 <header className="App-header">
                     <Navbar color="light" light expand="md">
-                        <NavbarBrand><Link to="/"><i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} /></Link></NavbarBrand>
+
+                        <Link to="/">
+                            {/* <a className="links" onClick={this.ChangeLinkToA_1}>*/}
+                            <NavbarBrand>
+                                <i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} />
+                                <p style={{ float: 'right', paddingTop: '12%', fontSize: '1rem' }}> - Portfolio</p>
+                            </NavbarBrand>
+                            {/* </a>   */}
+                       </Link>
 
                         <NavbarToggler onClick={this.toggle} />
 
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink><Link to="/apps">{strings.heading_Apps}</Link></NavLink>
+                                    <NavLink>
+                                        {/*<a className="links" onClick={this.ChangeLinkToA_2}>{strings.heading_Apps}</a> */}
+                                      
+                                        <Link to="/apps">{strings.heading_Apps}</Link>
+                                      
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink><Link to="/social-media">{strings.heading_SocialMedia}</Link></NavLink>
+                                    <NavLink>
+                                        {/* <a className="links" onClick={this.ChangeLinkToA_3}>{strings.heading_SocialMedia}</a> */}
+                                       
+                                        <Link to="/social-media">{strings.heading_SocialMedia}</Link>
+                                      
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <ReactFlagsSelect
