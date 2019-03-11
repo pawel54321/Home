@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5adfd676d31e3b286f072b71c639378c",
-    "url": "/home/static/media/kr.5adfd676.svg"
+    "revision": "7fdeb4b60e4def05a0673545c5a5dd24",
+    "url": "/home/static/media/km.7fdeb4b6.svg"
   },
   {
-    "revision": "631f3755bf6e562856b2",
-    "url": "/home/static/css/main.7ef216a0.chunk.css"
+    "revision": "62a2e0070376f28bf2b1",
+    "url": "/home/static/css/main.0485e46c.chunk.css"
   },
   {
     "revision": "5fdf7f86495bc64854ab",
@@ -16,20 +16,44 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "00ca7d7e4993c2209edb",
-    "url": "/home/static/js/2.00ca7d7e.chunk.js"
+    "revision": "3b8248e48595e1587da0",
+    "url": "/home/static/js/2.3b8248e4.chunk.js"
+  },
+  {
+    "revision": "1b480346d9e0bf0cdf4a2b3d1abe292a",
+    "url": "/home/static/media/The_Escaping_Balls_-_Screenshot.1b480346.jpg"
+  },
+  {
+    "revision": "5d7f32a34e2fc1f19a1ad477c586ae5c",
+    "url": "/home/static/media/The_Escaping_Balls_-_Screenshot_2.5d7f32a3.jpg"
   },
   {
     "revision": "a0b36ca3cc89893585d928664ca8689b",
-    "url": "/home/static/media/The_Escaping_Balls_-_Screenshot.a0b36ca3.jpg"
+    "url": "/home/static/media/The_Escaping_Balls_-_Screenshot_3.a0b36ca3.jpg"
   },
   {
     "revision": "c70ff4c4e28c2d9f437404f93cbc1bb8",
     "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot.c70ff4c4.jpg"
   },
   {
+    "revision": "9c20839641a4fe6bea265b3332d6876e",
+    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_2.9c208396.jpg"
+  },
+  {
+    "revision": "17319d3b4c6f6c3f41e50543a9ad4d02",
+    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_3.17319d3b.jpg"
+  },
+  {
     "revision": "f1a94204c1c0e05991dd4b45ef51b65f",
     "url": "/home/static/media/Candy_Gift_-_Screenshot.f1a94204.jpg"
+  },
+  {
+    "revision": "620873aac2b2c62bfc4e8e98955000c1",
+    "url": "/home/static/media/Candy_Gift_-_Screenshot_2.620873aa.jpg"
+  },
+  {
+    "revision": "fd7fed0c37bcd15c41da6f05d6a23789",
+    "url": "/home/static/media/Candy_Gift_-_Screenshot_3.fd7fed0c.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -448,8 +472,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/ki.80e19e9b.svg"
   },
   {
-    "revision": "7fdeb4b60e4def05a0673545c5a5dd24",
-    "url": "/home/static/media/km.7fdeb4b6.svg"
+    "revision": "62a2e0070376f28bf2b1",
+    "url": "/home/static/js/main.62a2e007.chunk.js"
   },
   {
     "revision": "6819c37bf38fb00b773608eb51b91bf6",
@@ -460,8 +484,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/kp.69b9a975.svg"
   },
   {
-    "revision": "631f3755bf6e562856b2",
-    "url": "/home/static/js/main.631f3755.chunk.js"
+    "revision": "5adfd676d31e3b286f072b71c639378c",
+    "url": "/home/static/media/kr.5adfd676.svg"
   },
   {
     "revision": "398bcf751f8e43722092f9b0f10515c9",
@@ -916,11 +940,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/zm.acad9df9.svg"
   },
   {
-    "revision": "00ca7d7e4993c2209edb",
-    "url": "/home/static/css/2.d438b34f.chunk.css"
+    "revision": "3b8248e48595e1587da0",
+    "url": "/home/static/css/2.e08373c9.chunk.css"
   },
   {
-    "revision": "d70bccdc30f8af43acefbdc5952dba74",
+    "revision": "62a5f15f75e9126d9aaa40f4f9994390",
     "url": "/home/index.html"
   }
 ];
