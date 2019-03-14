@@ -33,7 +33,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 11/3/2019 23:34",
+        datetime:"Last update: 14/3/2019 19:26",
     },
     pl: {
         /*
@@ -54,7 +54,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 11.03.2019 23:34",
+        datetime: "Ostatnia aktualizacja: 14.03.2019 19:26",
     }
 });
 
@@ -127,7 +127,6 @@ class App extends Component {
                 <Route exact path="/*" component={NotFound} />
 
                 {/* Data ostatniej aktualizacji - aplikacje */}
-                {/* Full-Screen - Screenshots [pointer] */}
             </Switch>
         );
     }
