@@ -33,7 +33,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 14/3/2019 19:26",
+        datetime:"Last update: 25/4/2019 17:00",
     },
     pl: {
         /*
@@ -54,7 +54,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 14.03.2019 19:26",
+        datetime: "Ostatnia aktualizacja: 25.04.2019 17:00",
     }
 });
 

@@ -7,6 +7,12 @@ import {
     CardSubtitle, CardBody
 } from 'reactstrap';
 
+
+import CG_S from '../Images/Candy_Gift_-_Screenshot.jpg';
+import CG_S_2 from '../Images/Candy_Gift_-_Screenshot_2.jpg';
+import CG_S_3 from '../Images/Candy_Gift_-_Screenshot_3.jpg';
+
+import TEB_2_S from '../Images/The_Escaping_Balls_2_-_Screenshot.jpg';
 import TEB_S from '../Images/The_Escaping_Balls_-_Screenshot.jpg';
 import TEB_S_2 from '../Images/The_Escaping_Balls_-_Screenshot_2.jpg';
 import TEB_S_3 from '../Images/The_Escaping_Balls_-_Screenshot_3.jpg';
@@ -14,10 +20,6 @@ import TEB_S_3 from '../Images/The_Escaping_Balls_-_Screenshot_3.jpg';
 import RK_S from '../Images/Równanie_Kwadratowe_-_Screenshot.jpg';
 import RK_S_2 from '../Images/Równanie_Kwadratowe_-_Screenshot_2.jpg';
 import RK_S_3 from '../Images/Równanie_Kwadratowe_-_Screenshot_3.jpg';
-
-import CG_S from '../Images/Candy_Gift_-_Screenshot.jpg';
-import CG_S_2 from '../Images/Candy_Gift_-_Screenshot_2.jpg';
-import CG_S_3 from '../Images/Candy_Gift_-_Screenshot_3.jpg';
 
 import { strings } from '../App'
 
@@ -32,6 +34,7 @@ const images = [
     CG_S_2,
     CG_S_3,
 
+    TEB_2_S,
     TEB_S,
     TEB_S_2,
     TEB_S_3,
@@ -117,31 +120,34 @@ class Apps extends Component {
                     <Card className="Card">
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={6000}>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 3, })}>
-                                <img src={TEB_S} alt="" />
+                                <img src={TEB_2_S} alt="" />
                             </div>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 4, })}>
-                                <img src={TEB_S_2} alt="" />
+                                <img src={TEB_S} alt="" />
                             </div>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 5, })}>
+                                <img src={TEB_S_2} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 6, })}>
                                 <img src={TEB_S_3} alt="" />
                             </div>
                         </Carousel>
                         <CardBody>
-                            <CardTitle>'The Escaping Balls'</CardTitle>
+                            <CardTitle>'The Escaping Balls' & 'The Escaping Balls 2'</CardTitle>
                             <CardSubtitle>Desktop | Multiplayer</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://github.com/pawel54321/Game_-_The_Escaping_Balls_-_Multiplayer">{strings.button_read_more}</Button>
+                            <Button color="success" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2">{strings.button_read_more}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={9000}>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 6, })}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 7, })}>
                                 <img src={RK_S} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 7, })}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 8, })}>
                                 <img src={RK_S_2} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 8, })}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 9, })}>
                                 <img src={RK_S_3} alt="" />
                             </div>
                         </Carousel>
