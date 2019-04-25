@@ -13,9 +13,9 @@ import CG_S_2 from '../Images/Candy_Gift_-_Screenshot_2.jpg';
 import CG_S_3 from '../Images/Candy_Gift_-_Screenshot_3.jpg';
 
 import TEB_2_S from '../Images/The_Escaping_Balls_2_-_Screenshot.jpg';
+import TEB_2_S_2 from '../Images/The_Escaping_Balls_2_-_Screenshot_2.jpg';
 import TEB_S from '../Images/The_Escaping_Balls_-_Screenshot.jpg';
 import TEB_S_2 from '../Images/The_Escaping_Balls_-_Screenshot_2.jpg';
-import TEB_S_3 from '../Images/The_Escaping_Balls_-_Screenshot_3.jpg';
 
 import RK_S from '../Images/Równanie_Kwadratowe_-_Screenshot.jpg';
 import RK_S_2 from '../Images/Równanie_Kwadratowe_-_Screenshot_2.jpg';
@@ -35,9 +35,9 @@ const images = [
     CG_S_3,
 
     TEB_2_S,
+    TEB_2_S_2,
     TEB_S,
     TEB_S_2,
-    TEB_S_3,
 
     RK_S,
     RK_S_2,
@@ -123,13 +123,13 @@ class Apps extends Component {
                                 <img src={TEB_2_S} alt="" />
                             </div>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 4, })}>
-                                <img src={TEB_S} alt="" />
+                                <img src={TEB_2_S_2} alt="" />
                             </div>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 5, })}>
-                                <img src={TEB_S_2} alt="" />
+                                <img src={TEB_S} alt="" />
                             </div>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 6, })}>
-                                <img src={TEB_S_3} alt="" />
+                                <img src={TEB_S_2} alt="" />
                             </div>
                         </Carousel>
                         <CardBody>
