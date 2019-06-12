@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/km.7fdeb4b6.svg"
   },
   {
-    "revision": "cbff985704b290dfc222",
+    "revision": "c8d5d9cf06906d4e5483",
     "url": "/home/static/css/main.0485e46c.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/The_Escaping_Balls_2_-_Screenshot.dc88810d.jpg"
   },
   {
-    "revision": "7237071f51a7ef4833b9e4bca1400bf8",
-    "url": "/home/static/media/The_Escaping_Balls_2_-_Screenshot_2.7237071f.jpg"
+    "revision": "72b2ed50768d07e4f9ea5ae308f305b3",
+    "url": "/home/static/media/The_Escaping_Balls_2_-_Screenshot_2.72b2ed50.jpg"
   },
   {
     "revision": "a0b36ca3cc89893585d928664ca8689b",
@@ -476,8 +476,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/ki.80e19e9b.svg"
   },
   {
-    "revision": "cbff985704b290dfc222",
-    "url": "/home/static/js/main.cbff9857.chunk.js"
+    "revision": "c8d5d9cf06906d4e5483",
+    "url": "/home/static/js/main.c8d5d9cf.chunk.js"
   },
   {
     "revision": "6819c37bf38fb00b773608eb51b91bf6",
@@ -948,7 +948,7 @@ self.__precacheManifest = [
     "url": "/home/static/css/2.8a30a557.chunk.css"
   },
   {
-    "revision": "ef92d0c97598404ebef516484c3b956d",
+    "revision": "f97ffa6d2db01b8b589b914b6ea8325d",
     "url": "/home/index.html"
   }
 ];
