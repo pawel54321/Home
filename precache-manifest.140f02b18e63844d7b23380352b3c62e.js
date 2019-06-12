@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/km.7fdeb4b6.svg"
   },
   {
-    "revision": "8e393d4b0126aa81c0d1",
+    "revision": "cbff985704b290dfc222",
     "url": "/home/static/css/main.0485e46c.chunk.css"
   },
   {
@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/home/static/media/The_Escaping_Balls_-_Screenshot_2.1b480346.jpg"
   },
   {
-    "revision": "f0354150df5c5952e88e58698c090cd7",
-    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot.f0354150.jpg"
+    "revision": "33bdf5960c06315960fd6c6e67b056f2",
+    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot.33bdf596.jpg"
   },
   {
-    "revision": "4836e1bdd3daa525730e7151ed8ab56a",
-    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_2.4836e1bd.jpg"
+    "revision": "7b8a5518b588540098d4f34c965772df",
+    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_2.7b8a5518.jpg"
   },
   {
-    "revision": "a622efa0466a8163eef56bbdb745987f",
-    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_3.a622efa0.jpg"
+    "revision": "1b485662db221f15f4c7fee4944c784a",
+    "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_3.1b485662.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -476,8 +476,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/ki.80e19e9b.svg"
   },
   {
-    "revision": "8e393d4b0126aa81c0d1",
-    "url": "/home/static/js/main.8e393d4b.chunk.js"
+    "revision": "cbff985704b290dfc222",
+    "url": "/home/static/js/main.cbff9857.chunk.js"
   },
   {
     "revision": "6819c37bf38fb00b773608eb51b91bf6",
@@ -948,7 +948,7 @@ self.__precacheManifest = [
     "url": "/home/static/css/2.8a30a557.chunk.css"
   },
   {
-    "revision": "ad74866f9755a37e383616e9bfa53a6f",
+    "revision": "ef92d0c97598404ebef516484c3b956d",
     "url": "/home/index.html"
   }
 ];
