@@ -43,7 +43,7 @@ class SocialMedia extends Component {
                         <center><SocialIcon style={{ marginTop: '25px', height: 100, width: 100 }} url="https://github.com/pawel54321?tab=repositories" /></center>
                         {/*<CardImg top width="100%" src="" alt="Image" />*/}
                     <CardBody>
-                        <CardTitle>Github</CardTitle>
+                        <CardTitle>GitHub</CardTitle>
                             <CardSubtitle>{strings.type_subtitle_3}</CardSubtitle>
                         <CardText></CardText>
                             {/* <Button color="success" href="https://github.com/pawel54321?tab=repositories">Read More</Button>*/}

@@ -21,6 +21,8 @@ import RK_S from '../Images/Równanie_Kwadratowe_-_Screenshot.jpg';
 import RK_S_2 from '../Images/Równanie_Kwadratowe_-_Screenshot_2.jpg';
 import RK_S_3 from '../Images/Równanie_Kwadratowe_-_Screenshot_3.jpg';
 
+import CS from '../Images/Coming_Soon.jpg';
+
 import { strings } from '../App'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -94,10 +96,72 @@ class Apps extends Component {
 
 
                 <h4 style={{ paddingLeft: '30px', paddingTop: '30px' }}>{strings.heading_Apps}</h4>
+
+
+                <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
+
+
+                    <Card className="Card">
+                        <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                        </Carousel>
+                        <CardBody>
+                            <CardTitle>'?'</CardTitle>
+                            <CardSubtitle>WebGL | Multiplayer (Photon) | Only WAN (NO LAN)</CardSubtitle>
+                            <CardText></CardText>
+                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                        </CardBody>
+                    </Card>
+                    <Card className="Card">
+                        <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                        </Carousel>
+                        <CardBody>
+                            <CardTitle>'?'</CardTitle>
+                            <CardSubtitle>WebGL | Multiplayer (Hot Seat)</CardSubtitle>
+                            <CardText></CardText>
+                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                        </CardBody>
+                    </Card>
+                    <Card className="Card">
+                        <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
+                                <img src={CS} alt="" />
+                            </div>
+                        </Carousel>
+                        <CardBody>
+                            <CardTitle>'?'</CardTitle>
+                            <CardSubtitle>WebGL | Singleplayer</CardSubtitle>
+                            <CardText></CardText>
+                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                        </CardBody>
+                    </Card>
+                </CardDeck>
+
                 <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
                     <Card className="Card">
-
-
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
                             <div onClick={() => this.setState({ isOpen: true, photoIndex: 0,})}>
                                 <img src={CG_S} alt="" />                         
@@ -112,9 +176,9 @@ class Apps extends Component {
 
                         <CardBody>
                             <CardTitle>'Candy Gift'</CardTitle>
-                            <CardSubtitle>Android</CardSubtitle>
+                            <CardSubtitle>Android | Singleplayer</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.candygift">{strings.button_read_more}</Button>
+                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.candygift">{strings.button_google_play}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
@@ -134,9 +198,9 @@ class Apps extends Component {
                         </Carousel>
                         <CardBody>
                             <CardTitle>'The Escaping Balls' & 'The Escaping Balls 2'</CardTitle>
-                            <CardSubtitle>Desktop | Multiplayer</CardSubtitle>
+                            <CardSubtitle>Desktop | Multiplayer (UNet) | Only LAN</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2">{strings.button_read_more}</Button>
+                            <Button color="success" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2">{strings.button_github}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
@@ -155,8 +219,8 @@ class Apps extends Component {
                     <CardBody>
                         <CardTitle>'Równanie Kwadratowe'</CardTitle>
                         <CardSubtitle>Android</CardSubtitle>
-                        <CardText></CardText>
-                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.rownaniekwadratowe">{strings.button_read_more}</Button>
+                            <CardText></CardText>
+                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.rownaniekwadratowe">{strings.button_google_play}</Button>
                     </CardBody>
                 </Card>
                 </CardDeck>

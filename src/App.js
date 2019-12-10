@@ -26,6 +26,10 @@ export let strings = new LocalizedStrings({
         heading_Apps: "Apps",
         button_read_more: "Read More",
 
+        button_play: "Play Now!",
+        button_google_play: "Go to Google Play",
+        button_github: "Go to GitHub",
+
         heading_SocialMedia: "Social Media",
         type_subtitle_1: "My Apps",
         type_subtitle_2: "My Channel",
@@ -33,7 +37,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 12/6/2019 22:24",
+        datetime:"Last update: 10/12/2019 22:24",
     },
     pl: {
         /*
@@ -47,6 +51,10 @@ export let strings = new LocalizedStrings({
         heading_Apps: "Aplikacje",
         button_read_more: "Czytaj Więcej",
 
+        button_play: "Zagraj Teraz!",
+        button_google_play: "Przejdź do Google Play",
+        button_github: "Przejdź do GitHub",
+
         heading_SocialMedia: "Media Społecznościowe",
         type_subtitle_1: "Moje Aplikacje",
         type_subtitle_2: "Mój Kanał",
@@ -54,7 +62,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 12.06.2019 22:24",
+        datetime: "Ostatnia aktualizacja: 10.12.2019 22:24",
     }
 });
 
