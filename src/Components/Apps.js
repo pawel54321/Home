@@ -8,6 +8,7 @@ import {
 } from 'reactstrap';
 
 
+
 import CG_S from '../Images/Candy_Gift_-_Screenshot.jpg';
 import CG_S_2 from '../Images/Candy_Gift_-_Screenshot_2.jpg';
 import CG_S_3 from '../Images/Candy_Gift_-_Screenshot_3.jpg';
@@ -23,6 +24,12 @@ import RK_S_3 from '../Images/Równanie_Kwadratowe_-_Screenshot_3.jpg';
 
 import CS from '../Images/Coming_Soon.jpg';
 
+import STCOS from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_1.jpg';
+import STCOS_2 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_2.jpg';
+import STCOS_3 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_3.jpg';
+import STCOS_4 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_4.jpg';
+
+
 import { strings } from '../App'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -32,6 +39,7 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; 
 
 const images = [
+
     CG_S,
     CG_S_2,
     CG_S_3,
@@ -43,7 +51,12 @@ const images = [
 
     RK_S,
     RK_S_2,
-    RK_S_3
+    RK_S_3,
+
+    STCOS,
+    STCOS_2,
+    STCOS_3,
+    STCOS_4
 ];
 
 class Apps extends Component {
@@ -97,6 +110,35 @@ class Apps extends Component {
 
                 <h4 style={{ paddingLeft: '30px', paddingTop: '30px' }}>{strings.heading_Apps}</h4>
 
+                <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
+
+                    <Card className="Card" style={{ borderStyle: "none" }}>
+                    </Card>
+                    <Card className="Card">
+                        <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 10, })}>
+                                <img src={STCOS} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 11, })}>
+                                <img src={STCOS_2} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 12, })}>
+                                <img src={STCOS_3} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 13, })}>
+                                <img src={STCOS_4} alt="" />
+                            </div>
+                        </Carousel>
+                        <CardBody>
+                            <CardTitle>'Survive The Clash Of Spiders'</CardTitle>
+                            <CardSubtitle>Oculus (VR) | Singleplayer<br/><i>Cardboard Support In The Future (Only Implement Controller)</i></CardSubtitle>
+                            <CardText></CardText>
+                            <Button color="success" href="https://github.com/pawel54321/Survive-The-Clash-Of-Spiders">{strings.button_github}</Button>
+                        </CardBody>
+                    </Card>
+                    <Card className="Card" style={{ borderStyle: "none" }}>
+                    </Card>
+                </CardDeck>
 
                 <CardDeck style={{ paddingTop: '30px', float: 'left' }}>
 
