@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "80e19e9bf279ba4b868cbec11a13849a",
-    "url": "/home/static/media/ki.80e19e9b.svg"
+    "revision": "99318e86009dfc5243eb92721b93d70c",
+    "url": "/home/static/media/kg.99318e86.svg"
   },
   {
-    "revision": "181ab86c59902ddc7d0c",
+    "revision": "8aaa6e562882b8ce3788",
     "url": "/home/static/css/main.150b657c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "84ed07dede41712d1e96",
-    "url": "/home/static/js/2.84ed07de.chunk.js"
+    "revision": "4eda47969d0470a128ae",
+    "url": "/home/static/js/2.4eda4796.chunk.js"
   },
   {
     "revision": "81ee1f9603287aaeacb868225ede1431",
@@ -62,6 +62,22 @@ self.__precacheManifest = [
   {
     "revision": "1b485662db221f15f4c7fee4944c784a",
     "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_3.1b485662.jpg"
+  },
+  {
+    "revision": "180dcf0f66c85c43391156dd528ea5ef",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_1.180dcf0f.jpg"
+  },
+  {
+    "revision": "522fb76b4ba3019bdda9932b18e7ba15",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_2.522fb76b.jpg"
+  },
+  {
+    "revision": "ebd4e3ac3157dff3b42a4e8556b942a8",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_3.ebd4e3ac.jpg"
+  },
+  {
+    "revision": "6115fb949e57ff34af924ac6388d5371",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_4.6115fb94.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -468,16 +484,16 @@ self.__precacheManifest = [
     "url": "/home/static/media/ke.732c2b39.svg"
   },
   {
-    "revision": "99318e86009dfc5243eb92721b93d70c",
-    "url": "/home/static/media/kg.99318e86.svg"
+    "revision": "8aaa6e562882b8ce3788",
+    "url": "/home/static/js/main.8aaa6e56.chunk.js"
   },
   {
     "revision": "ae60a7f636411c3f57dd5a964c8221bb",
     "url": "/home/static/media/kh.ae60a7f6.svg"
   },
   {
-    "revision": "181ab86c59902ddc7d0c",
-    "url": "/home/static/js/main.181ab86c.chunk.js"
+    "revision": "80e19e9bf279ba4b868cbec11a13849a",
+    "url": "/home/static/media/ki.80e19e9b.svg"
   },
   {
     "revision": "7fdeb4b60e4def05a0673545c5a5dd24",
@@ -948,11 +964,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/zm.acad9df9.svg"
   },
   {
-    "revision": "84ed07dede41712d1e96",
+    "revision": "4eda47969d0470a128ae",
     "url": "/home/static/css/2.8a30a557.chunk.css"
   },
   {
-    "revision": "c28ccf0092d90ea6ea428fa3212d67ed",
+    "revision": "b27bf2aca1bcda686596575fcc863409",
     "url": "/home/index.html"
   }
 ];
