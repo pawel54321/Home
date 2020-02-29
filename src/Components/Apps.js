@@ -80,9 +80,6 @@ class Apps extends Component {
             <div style={{ float: 'left', paddingBottom: '30px' }}>
 
 
-
-     
-
                 {isOpen && (
                     <Lightbox
                         mainSrc={images[photoIndex]}
@@ -131,7 +128,10 @@ class Apps extends Component {
                         </Carousel>
                         <CardBody>
                             <CardTitle>'Survive The Clash Of Spiders'</CardTitle>
-                            <CardSubtitle>Oculus (VR) | Singleplayer<br/><i>Cardboard Support In The Future (Only Implement Controller)</i></CardSubtitle>
+                            <CardSubtitle>Oculus, Cardboard (VR) | Singleplayer<br /><br />
+                                <i>{strings.spiders1}<br />
+                                   {strings.spiders2}<br />
+                                <b>{strings.spiders3}</b></i></CardSubtitle>
                             <CardText></CardText>
                             <Button color="success" href="https://github.com/pawel54321/Survive-The-Clash-Of-Spiders">{strings.button_github}</Button>
                         </CardBody>
@@ -157,7 +157,7 @@ class Apps extends Component {
                         </Carousel>
                         <CardBody>
                             <CardTitle>'?'</CardTitle>
-                            <CardSubtitle>WebGL | Multiplayer (Photon) | Only WAN (NO LAN)</CardSubtitle>
+                            <CardSubtitle>WebGL | Multiplayer (Photon) | Only NETWORK (No LAN)</CardSubtitle>
                             <CardText></CardText>
                             <Button disabled color="primary" href="">{strings.button_play}</Button>
                         </CardBody>

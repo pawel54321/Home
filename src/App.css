@@ -99,3 +99,39 @@ a.links:hover {
 {
     width:90% !important;
 }
+
+
+.darkmode-toggle
+{
+    z-index:1;
+}
+
+.darkmode--activated p, .darkmode--activated nav {
+    color: white !important;
+    background-color: #191919 !important;
+    border-color: white !important;
+}
+.darkmode--activated div.flag-options {
+    color: white !important;
+    background-color: black !important;
+    border-color: white !important;
+}
+
+.darkmode--activated .Card {
+    color: white !important;
+    background-color: black !important;
+    border-color: white !important;
+}
+
+.darkmode--activated a:hover > .btn:not(:first-child),
+.darkmode--activated a:hover .text-home,
+.darkmode--activated a:hover .fa,
+.darkmode--activated .nav-link > a:hover /*,
+.darkmode--activated a:hover div.flag-options */ {
+    color: grey !important;
+}
+.darkmode--activated a {
+    color: white !important;
+}
+
+

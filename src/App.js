@@ -12,6 +12,8 @@ import NotFound from './Components/NotFound';
 
 import LocalizedStrings from 'react-localization';
 
+import Darkmode from 'darkmode-js';
+
 export let strings = new LocalizedStrings({
 
     gb: {
@@ -20,6 +22,9 @@ export let strings = new LocalizedStrings({
         description_Apps: "Apps - Portfolio.",
         description_SocialMedia: "Social Media Page - Portfolio.",
         */
+        spiders1: "Oculus Support - move contoller to fight and tracking",
+        spiders2: "Cardboard Support - automatic camera fight and tracking",
+        spiders3: "I created the prototype 'game' in only one day (6h-12h)",
 
         heading_Home: "Home",
 
@@ -37,7 +42,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "The page with the given URL does not exist.",
 
-        datetime:"Last update: 12/12/2019 01:20",
+        datetime:"Last update: 01/03/2020 00:20",
     },
     pl: {
         /*
@@ -45,6 +50,9 @@ export let strings = new LocalizedStrings({
         description_Apps: "Aplikacje - Portfolio.",
         description_SocialMedia: "Strona Mediów Społecznościowych - Portfolio.",
         */
+        spiders1: "Wsparcie dla Oculus'a - poruszaj kontrolerem, aby walczyć i śledź wzrokiem otoczenie",
+        spiders2: "Wsparcie dla Cardboard'a - automatyczna walka przy pomocy kamery, która również służy do rozglądania",
+        spiders3: "Stworzyłem prototyp 'grę' w zaledwie jeden dzień (6h-12h)",
 
         heading_Home: "Strona Główna",
 
@@ -62,7 +70,7 @@ export let strings = new LocalizedStrings({
 
         subtitle_NotFound: "Strona o podanym adresie URL nie istnieje.",
 
-        datetime: "Ostatnia aktualizacja: 12.12.2019 01:20",
+        datetime: "Ostatnia aktualizacja: 01.03.2020 00:20",
     }
 });
 
@@ -106,6 +114,22 @@ class App extends Component {
     }
 
     render() {
+        var options = {
+            bottom: '64px', // default: '32px'
+           // right: 'unset', // default: '32px'
+          //  left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true, // default: true
+        }
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
         return (
             <HashRouter>
                 <div className="App">

@@ -69,7 +69,7 @@ class Header extends Component {
                             {/* <a className="links" onClick={this.ChangeLinkToA_1}>*/}
                             <NavbarBrand>
                                 <i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} />
-                                <p style={{ float: 'right', paddingTop: '12%', fontSize: '1rem' }}> - Portfolio Unity3D</p>
+                                <p className="text-home" style={{ float: 'right', paddingTop: '12%', fontSize: '1rem' }}> - Portfolio Unity3D</p>
                             </NavbarBrand>
                             {/* </a>   */}
                        </Link>
