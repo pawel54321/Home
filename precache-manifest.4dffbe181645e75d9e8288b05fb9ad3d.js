@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "99318e86009dfc5243eb92721b93d70c",
-    "url": "/home/static/media/kg.99318e86.svg"
+    "revision": "732c2b397511b291abeb188dec746a38",
+    "url": "/home/static/media/ke.732c2b39.svg"
   },
   {
-    "revision": "96b2c6308ee4493e934f",
+    "revision": "78910034b91cacace4b8",
     "url": "/home/static/css/main.39c196c7.chunk.css"
   },
   {
@@ -16,12 +16,20 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "75fddf81c385b3299c6f",
-    "url": "/home/static/js/2.75fddf81.chunk.js"
+    "revision": "56d04756a891293c4f63",
+    "url": "/home/static/js/2.56d04756.chunk.js"
   },
   {
     "revision": "81ee1f9603287aaeacb868225ede1431",
     "url": "/home/static/media/Coming_Soon.81ee1f96.jpg"
+  },
+  {
+    "revision": "42e6fe3d6683201f3fe53e867ec22935",
+    "url": "/home/static/media/pl.42e6fe3d.svg"
+  },
+  {
+    "revision": "9a9297cff1d2c76a12c827d77960f57f",
+    "url": "/home/static/media/gb.9a9297cf.svg"
   },
   {
     "revision": "f1a94204c1c0e05991dd4b45ef51b65f",
@@ -480,12 +488,12 @@ self.__precacheManifest = [
     "url": "/home/static/media/jp.4187b1d4.svg"
   },
   {
-    "revision": "732c2b397511b291abeb188dec746a38",
-    "url": "/home/static/media/ke.732c2b39.svg"
+    "revision": "78910034b91cacace4b8",
+    "url": "/home/static/js/main.78910034.chunk.js"
   },
   {
-    "revision": "96b2c6308ee4493e934f",
-    "url": "/home/static/js/main.96b2c630.chunk.js"
+    "revision": "99318e86009dfc5243eb92721b93d70c",
+    "url": "/home/static/media/kg.99318e86.svg"
   },
   {
     "revision": "ae60a7f636411c3f57dd5a964c8221bb",
@@ -964,11 +972,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/zm.acad9df9.svg"
   },
   {
-    "revision": "75fddf81c385b3299c6f",
+    "revision": "56d04756a891293c4f63",
     "url": "/home/static/css/2.8a30a557.chunk.css"
   },
   {
-    "revision": "d578f8bdd1a593288f5fd4077344bd35",
+    "revision": "d7c0a30221e9dd31107f7e3b4a29b173",
     "url": "/home/index.html"
   }
 ];
