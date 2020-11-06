@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/jo.8f719a67.svg"
   },
   {
-    "revision": "67a75f47368401232183",
+    "revision": "a97cc8de7823141043fe",
     "url": "/home/static/css/main.39c196c7.chunk.css"
   },
   {
@@ -88,24 +88,24 @@ self.__precacheManifest = [
     "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_4.6115fb94.jpg"
   },
   {
-    "revision": "ef34186c963625c943a167afa003e5c3",
-    "url": "/home/static/media/Card_Game_Pan_-_Screenshot.ef34186c.jpg"
+    "revision": "92b48edf22af2e8a042349e2529f0fd2",
+    "url": "/home/static/media/Card_Game_Pan_-_Screenshot.92b48edf.jpg"
   },
   {
-    "revision": "7698d6f44907378f9ab14df7a9cdd970",
-    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_2.7698d6f4.jpg"
+    "revision": "39ee45660a4469c4a83c55b2d46f1fea",
+    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_2.39ee4566.jpg"
   },
   {
-    "revision": "febc19d34b1a7802617f6923f933f79b",
-    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_3.febc19d3.jpg"
+    "revision": "16df9694616d11fbe1fbac1b3043eb16",
+    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_3.16df9694.jpg"
   },
   {
-    "revision": "357e7eebc4b071a6ee9e696c515bf37a",
-    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_4.357e7eeb.jpg"
+    "revision": "53412725419b255f6f8db3e85e3ef1ac",
+    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_4.53412725.jpg"
   },
   {
-    "revision": "51c44f4b804e6184fcedc83bdc8431c5",
-    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_5.51c44f4b.jpg"
+    "revision": "a6446e6e941e1c1c19d4fbf3bb637b74",
+    "url": "/home/static/media/Card_Game_Pan_-_Screenshot_5.a6446e6e.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -500,8 +500,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/jm.2fbfcbf1.svg"
   },
   {
-    "revision": "67a75f47368401232183",
-    "url": "/home/static/js/main.67a75f47.chunk.js"
+    "revision": "a97cc8de7823141043fe",
+    "url": "/home/static/js/main.a97cc8de.chunk.js"
   },
   {
     "revision": "4187b1d40dd02e84f908f0b2c9d24236",
@@ -996,7 +996,7 @@ self.__precacheManifest = [
     "url": "/home/static/css/2.8a30a557.chunk.css"
   },
   {
-    "revision": "3269c46f63ec660c6d32ab33ab5f876b",
+    "revision": "2bc4da84d9ea95333f233ff32afa8d7b",
     "url": "/home/index.html"
   }
 ];
