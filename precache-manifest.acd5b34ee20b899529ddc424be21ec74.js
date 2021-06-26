@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8f719a67a528c19790f907b7f93acdc4",
-    "url": "/home/static/media/jo.8f719a67.svg"
+    "revision": "b46f8792f1641fc6927137c0f162e46c",
+    "url": "/home/static/media/it.b46f8792.svg"
   },
   {
-    "revision": "a97cc8de7823141043fe",
-    "url": "/home/static/css/main.39c196c7.chunk.css"
+    "revision": "1345de0551cc7fad0dc3",
+    "url": "/home/static/css/main.a5455cb4.chunk.css"
   },
   {
     "revision": "5fdf7f86495bc64854ab",
@@ -16,12 +16,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "7569d96aafec3f241a4e",
-    "url": "/home/static/js/2.7569d96a.chunk.js"
-  },
-  {
-    "revision": "81ee1f9603287aaeacb868225ede1431",
-    "url": "/home/static/media/Coming_Soon.81ee1f96.jpg"
+    "revision": "50187bf8cfe5b1e7381c",
+    "url": "/home/static/js/2.50187bf8.chunk.js"
   },
   {
     "revision": "42e6fe3d6683201f3fe53e867ec22935",
@@ -106,6 +102,30 @@ self.__precacheManifest = [
   {
     "revision": "a6446e6e941e1c1c19d4fbf3bb637b74",
     "url": "/home/static/media/Card_Game_Pan_-_Screenshot_5.a6446e6e.jpg"
+  },
+  {
+    "revision": "9680205a9fcff4da0faa8f1ca3f0665e",
+    "url": "/home/static/media/English_Checkers_-_Screenshot.9680205a.jpg"
+  },
+  {
+    "revision": "db57657639899d53e863264eaab945ba",
+    "url": "/home/static/media/English_Checkers_2_-_Screenshot.db576576.jpg"
+  },
+  {
+    "revision": "ab6dc0a6fd3e02ea183f54d74346582c",
+    "url": "/home/static/media/English_Checkers_3_-_Screenshot.ab6dc0a6.jpg"
+  },
+  {
+    "revision": "cf2ff0f4abed4b7f74b7a5049c10676c",
+    "url": "/home/static/media/Memory_Game_-_Screenshot.cf2ff0f4.jpg"
+  },
+  {
+    "revision": "7efa4f0b2caf2fac5885b81dc5f721f4",
+    "url": "/home/static/media/Memory_Game_2_-_Screenshot.7efa4f0b.jpg"
+  },
+  {
+    "revision": "08e830e15e434e201eb149afcb7c0c84",
+    "url": "/home/static/media/Memory_Game_3_-_Screenshot.08e830e1.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -488,8 +508,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/is.1eecf71d.svg"
   },
   {
-    "revision": "b46f8792f1641fc6927137c0f162e46c",
-    "url": "/home/static/media/it.b46f8792.svg"
+    "revision": "1345de0551cc7fad0dc3",
+    "url": "/home/static/js/main.1345de05.chunk.js"
   },
   {
     "revision": "55d15529888cfcb15cb52b8b93ad2f1b",
@@ -500,8 +520,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/jm.2fbfcbf1.svg"
   },
   {
-    "revision": "a97cc8de7823141043fe",
-    "url": "/home/static/js/main.a97cc8de.chunk.js"
+    "revision": "8f719a67a528c19790f907b7f93acdc4",
+    "url": "/home/static/media/jo.8f719a67.svg"
   },
   {
     "revision": "4187b1d40dd02e84f908f0b2c9d24236",
@@ -992,11 +1012,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/zm.acad9df9.svg"
   },
   {
-    "revision": "7569d96aafec3f241a4e",
-    "url": "/home/static/css/2.8a30a557.chunk.css"
+    "revision": "50187bf8cfe5b1e7381c",
+    "url": "/home/static/css/2.ada788f2.chunk.css"
   },
   {
-    "revision": "2bc4da84d9ea95333f233ff32afa8d7b",
+    "revision": "25bd980ee022b921938ebfd2ca19a66d",
     "url": "/home/index.html"
   }
 ];
