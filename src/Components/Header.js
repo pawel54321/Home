@@ -65,14 +65,15 @@ class Header extends Component {
                 <header className="App-header">
                     <Navbar color="light" light expand="md">
 
-                        <Link to="/">
+                   
                             {/* <a className="links" onClick={this.ChangeLinkToA_1}>*/}
-                            <NavbarBrand>
+                        <NavbarBrand>
+                            <Link to="/" className="">
                                 <i className="fa fa-home" style={{ fontSize: '50px', color: 'light' }} />
                                 <p className="text-home" style={{ float: 'right', paddingTop: '12%', fontSize: '1rem' }}> - Portfolio Unity3D</p>
-                            </NavbarBrand>
-                            {/* </a>   */}
-                       </Link>
+                            </Link>
+                        </NavbarBrand>
+                            {/* </a>   */}    
 
                         <NavbarToggler onClick={this.toggle} />
 
@@ -92,6 +93,14 @@ class Header extends Component {
                                        
                                         <Link to="/social-media">{strings.heading_SocialMedia}</Link>
                                       
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink>
+                                        {/* <a className="links" onClick={this.ChangeLinkToA_3}>{strings.heading_SocialMedia}</a> */}
+
+                                        <Link to="/privacy-policy">{strings.heading_PrivacyPolicy}</Link>
+
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

@@ -1,0 +1,13 @@
+{
+"companyName": "Pawel",
+"productName": "TestWEBGL",
+"dataUrl": "bb1a2f4a549d8f830fb597e5d0540770.unityweb",
+"wasmCodeUrl": "ef5154c4b2f000a0234c6e3712722f2d.unityweb",
+"wasmFrameworkUrl": "b8ededf97b76c9961dff4ff308645751.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}

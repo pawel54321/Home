@@ -82,6 +82,10 @@ footer {
 .NotFoundClass {
     margin-top: 10%;
 }
+.PrivacyPolicyClass {
+    padding-top: 30px;
+    padding-left: 30px;
+}
 
 a.links {
     color: #007bff !important;
@@ -106,8 +110,9 @@ a.links:hover {
     z-index:1;
 }
 
-.darkmode--activated p, .darkmode--activated nav {
-    color: white !important;
+/*.darkmode--activated p,*/ .darkmode--activated nav > a > a,
+.darkmode--activated nav, .darkmode--activated .nav-item > .nav-link > a {
+    color: lightblue !important;
     background-color: #191919 !important;
     border-color: white !important;
 }
@@ -125,13 +130,37 @@ a.links:hover {
 
 .darkmode--activated a:hover > .btn:not(:first-child),
 .darkmode--activated a:hover .text-home,
-.darkmode--activated a:hover .fa,
-.darkmode--activated .nav-link > a:hover /*,
-.darkmode--activated a:hover div.flag-options */ {
-    color: grey !important;
+.darkmode--activated a:hover .fa-home,
+.darkmode--activated .nav-link > a:hover/*,.darkmode--activated a:hover div.flag-options */ {
+    color: deepskyblue !important;
 }
+/*
 .darkmode--activated a {
-    color: white !important;
+   color: white !important;
+}
+    */
+
+.btn {
+    margin-bottom: 4px;
+}
+
+p.carousel-status {
+    background-color: black;
+}
+
+.darkmode--activated div > h4 {
+    color:black; /*?*/
 }
 
 
+a:hover > .text-home {
+    text-decoration: underline;
+}
+
+.darkmode--activated .navbar-toggler {
+    border-color: white !important;
+}
+
+.darkmode--activated .navbar-toggler-icon {
+    filter: invert(100%);
+}

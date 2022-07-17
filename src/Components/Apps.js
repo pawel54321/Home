@@ -7,7 +7,8 @@ import {
     CardSubtitle, CardBody
 } from 'reactstrap';
 
-
+import PL from '../Images/pl.svg';
+import GB from '../Images/gb.svg';
 
 import CG_S from '../Images/Candy_Gift_-_Screenshot.jpg';
 import CG_S_2 from '../Images/Candy_Gift_-_Screenshot_2.jpg';
@@ -22,13 +23,26 @@ import RK_S from '../Images/Równanie_Kwadratowe_-_Screenshot.jpg';
 import RK_S_2 from '../Images/Równanie_Kwadratowe_-_Screenshot_2.jpg';
 import RK_S_3 from '../Images/Równanie_Kwadratowe_-_Screenshot_3.jpg';
 
-import CS from '../Images/Coming_Soon.jpg';
+//import CS from '../Images/Coming_Soon.jpg';
 
 import STCOS from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_1.jpg';
 import STCOS_2 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_2.jpg';
 import STCOS_3 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_3.jpg';
 import STCOS_4 from '../Images/Survive_The_Clash_Of_Spiders_-_Screenshot_4.jpg';
 
+import CGP from '../Images/Card_Game_Pan_-_Screenshot.jpg';
+import CGP_2 from '../Images/Card_Game_Pan_-_Screenshot_2.jpg';
+import CGP_3 from '../Images/Card_Game_Pan_-_Screenshot_3.jpg';
+import CGP_4 from '../Images/Card_Game_Pan_-_Screenshot_4.jpg';
+import CGP_5 from '../Images/Card_Game_Pan_-_Screenshot_5.jpg';
+
+import EC from '../Images/English_Checkers_-_Screenshot.jpg';
+import EC_2 from '../Images/English_Checkers_2_-_Screenshot.jpg';
+import EC_3 from '../Images/English_Checkers_3_-_Screenshot.jpg';
+
+import MG from '../Images/Memory_Game_-_Screenshot.jpg';
+import MG_2 from '../Images/Memory_Game_2_-_Screenshot.jpg';
+import MG_3 from '../Images/Memory_Game_3_-_Screenshot.jpg';
 
 import { strings } from '../App'
 
@@ -56,7 +70,21 @@ const images = [
     STCOS,
     STCOS_2,
     STCOS_3,
-    STCOS_4
+    STCOS_4,
+
+    CGP,
+    CGP_2,
+    CGP_3,
+    CGP_4,
+    CGP_5,
+
+    EC,
+    EC_2,
+    EC_3,
+
+    MG,
+    MG_2,
+    MG_3
 ];
 
 class Apps extends Component {
@@ -128,12 +156,12 @@ class Apps extends Component {
                         </Carousel>
                         <CardBody>
                             <CardTitle>'Survive The Clash Of Spiders'</CardTitle>
-                            <CardSubtitle>Oculus, Cardboard (VR) | Singleplayer<br /><br />
-                                <i>{strings.spiders1}<br />
-                                   {strings.spiders2}<br />
-                                <b>{strings.spiders3}</b></i></CardSubtitle>
+                            <CardSubtitle><i class="fa fa-android"></i><i class="fa fa-cardboard"></i> Oculus/Cardboard (VR) | <i class="fa fa-user"></i> Singleplayer | <img src={GB} alt="gb" height="20" width="20"></img> {strings.english_version}<br /><br />
+                                <i>{strings.spiders_1}<br />
+                                   {strings.spiders_2}<br />
+                                <b>{strings.spiders_3}</b></i></CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://github.com/pawel54321/Survive-The-Clash-Of-Spiders">{strings.button_github}</Button>
+                                <Button color="success" href="https://github.com/pawel54321/Survive-The-Clash-Of-Spiders"><i class="fa fa-play-circle"></i> {strings.button_github}</Button> <Button color="info" disabled href=""><i class="fa fa-info-circle"></i> {strings.button_github_2}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card" style={{ borderStyle: "none" }}>
@@ -145,59 +173,66 @@ class Apps extends Component {
 
                     <Card className="Card">
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 14, })}>
+                                <img src={CGP} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 15, })}>
+                                <img src={CGP_2} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 16, })}>
+                                <img src={CGP_3} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 17, })}>
+                                <img src={CGP_4} alt="" />
+                            </div>
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 18, })}>
+                                <img src={CGP_5} alt="" />
                             </div>
                         </Carousel>
                         <CardBody>
-                            <CardTitle>'?'</CardTitle>
-                            <CardSubtitle>WebGL | Multiplayer (Photon) | Only NETWORK (No LAN)</CardSubtitle>
+                            <br /><br /><br />
+                            <CardTitle>'{strings.game_card}'</CardTitle>
+                            <CardSubtitle><i class="fa fa-globe"></i> WebGL | <i class="fa fa-server"></i> Multiplayer (Photon) | Only NETWORK (No LAN) | <img src={PL} alt="pl" height="20" width="20"></img> {strings.polish_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                            <Button color="success" href="https://pawel54321.itch.io/card-game-pan"><i class="fa fa-gamepad"></i> {strings.button_play}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 19, })}>
+                                <img src={EC} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 20, })}>
+                                <img src={EC_2} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 21, })}>
+                                <img src={EC_3} alt="" />
                             </div>
                         </Carousel>
                         <CardBody>
-                            <CardTitle>'?'</CardTitle>
-                            <CardSubtitle>WebGL | Multiplayer (Hot Seat)</CardSubtitle>
+                            <CardTitle>'{strings.game_checkers}'</CardTitle>
+                            <CardSubtitle><i class="fa fa-globe"></i> WebGL | <i class="fa fa-comments"></i> Multiplayer (Hot Seat) | <img src={PL} alt="pl" height="20" width="20"></img> {strings.polish_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                            <Button color="success" href="https://pawel54321.itch.io/english-checkers"><i class="fa fa-gamepad"></i> {strings.button_play}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
                         <Carousel showThumbs={false} stopOnHover={true} emulateTouch={false} infiniteLoop={true} autoPlay={true} transitionTime={1500} interval={3000}>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 22, })}>
+                                <img src={MG} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 23, })}>
+                                <img src={MG_2} alt="" />
                             </div>
-                            <div onClick={() => this.setState({ isOpen: true, photoIndex: -1, })}>
-                                <img src={CS} alt="" />
+                            <div onClick={() => this.setState({ isOpen: true, photoIndex: 24, })}>
+                                <img src={MG_3} alt="" />
                             </div>
                         </Carousel>
                         <CardBody>
-                            <CardTitle>'?'</CardTitle>
-                            <CardSubtitle>WebGL | Singleplayer</CardSubtitle>
+                            <CardTitle>'{strings.game_memory}'</CardTitle>
+                            <CardSubtitle><i class="fa fa-globe"></i> WebGL | <i class="fa fa-user"></i> Singleplayer | <img src={PL} alt="pl" height="20" width="20"></img> {strings.polish_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button disabled color="primary" href="">{strings.button_play}</Button>
+                            <Button color="success" href="https://pawel54321.itch.io/memory-game"><i class="fa fa-gamepad"></i> {strings.button_play}</Button>
                         </CardBody>
                     </Card>
                 </CardDeck>
@@ -218,9 +253,9 @@ class Apps extends Component {
 
                         <CardBody>
                             <CardTitle>'Candy Gift'</CardTitle>
-                            <CardSubtitle>Android | Singleplayer</CardSubtitle>
+                            <CardSubtitle><i class="fa fa-android"></i> Android | <i class="fa fa-user"></i> Singleplayer | <img src={GB} alt="gb" height="20" width="20"></img> {strings.english_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.candygift">{strings.button_google_play}</Button>
+                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.candygift"><i class="fa fa-play-circle"></i> {strings.button_google_play}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
@@ -240,9 +275,9 @@ class Apps extends Component {
                         </Carousel>
                         <CardBody>
                             <CardTitle>'The Escaping Balls' & 'The Escaping Balls 2'</CardTitle>
-                            <CardSubtitle>Desktop | Multiplayer (UNet) | Only LAN</CardSubtitle>
+                            <CardSubtitle><i class="fa fa-desktop"></i> Desktop | <i class="fa fa-home"></i> Multiplayer (UNet) | Only LAN | <img src={GB} alt="gb" height="20" width="20"></img> {strings.english_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2">{strings.button_github}</Button>
+                            <Button color="success" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2"><i class="fa fa-play-circle"></i> {strings.button_github}</Button> <Button color="info" href="https://github.com/pawel54321/The-Escaping-Balls---The-Escaping-Balls-2/blob/master/README.pdf"><i class="fa fa-info-circle"></i> {strings.button_github_2}</Button>
                         </CardBody>
                     </Card>
                     <Card className="Card">
@@ -259,10 +294,10 @@ class Apps extends Component {
                         </Carousel>
                         {/*<CardImg top width="100%" height="63%" src={RK_S} alt="Image" />*/}
                     <CardBody>
-                        <CardTitle>'Równanie Kwadratowe'</CardTitle>
-                        <CardSubtitle>Android</CardSubtitle>
+                            <CardTitle>'Równanie Kwadratowe'</CardTitle>
+                            <CardSubtitle><i class="fa fa-android"></i> Android | <img src={PL} alt="pl" height="20" width="20"></img> {strings.polish_version}</CardSubtitle>
                             <CardText></CardText>
-                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.rownaniekwadratowe">{strings.button_google_play}</Button>
+                            <Button color="success" href="https://play.google.com/store/apps/details?id=com.pawelwarcaba.rownaniekwadratowe"><i class="fa fa-play-circle"></i> {strings.button_google_play}</Button>
                     </CardBody>
                 </Card>
                 </CardDeck>
