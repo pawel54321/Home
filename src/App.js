@@ -54,7 +54,7 @@ export let strings = new LocalizedStrings({
 
         heading_PrivacyPolicy: "Privacy Policy",
 
-        datetime:"Last update: 07/17/2022 09:15",
+        datetime:"Last update: 07/18/2022 19:05",
     },
     pl: {
         /*
@@ -92,7 +92,7 @@ export let strings = new LocalizedStrings({
 
         heading_PrivacyPolicy: "Polityka Prywatności",
 
-        datetime: "Ostatnia aktualizacja: 17.07.2022 09:15",
+        datetime: "Ostatnia aktualizacja: 18.07.2022 19:05",
     }
 });
 

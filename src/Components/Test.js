@@ -3,7 +3,12 @@
 class Test extends Component {
 
     componentDidMount() {
-        window.myCookie();
+        try {
+            window.myCookie();
+        }
+        catch (e) {
+
+        }
     }
 
     render() {
