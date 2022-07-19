@@ -54,7 +54,7 @@ export let strings = new LocalizedStrings({
 
         heading_PrivacyPolicy: "Privacy Policy",
 
-        datetime:"Last update: 07/18/2022 19:05",
+        datetime:"Last update: 07/19/2022 18:05",
     },
     pl: {
         /*
@@ -92,7 +92,7 @@ export let strings = new LocalizedStrings({
 
         heading_PrivacyPolicy: "Polityka Prywatności",
 
-        datetime: "Ostatnia aktualizacja: 18.07.2022 19:05",
+        datetime: "Ostatnia aktualizacja: 19.07.2022 18:05",
     }
 });
 
@@ -169,7 +169,7 @@ class App extends Component {
                 <div className="App">
                     <Header />
                     <main>
-                        {this.Routy()}
+                        {this.Routs()}
                         {this.Language()}
                     </main>
                     <Footer />
@@ -178,7 +178,7 @@ class App extends Component {
         );
     }
 
-    Routy = () => {
+    Routs = () => {
         return (
             <Switch>
                 <Route exact path="/" render={props =>
