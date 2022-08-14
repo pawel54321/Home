@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "0e1d62301514618176d1",
-    "url": "/home/static/css/main.b82f81ba.chunk.css"
+    "revision": "6370d2024104ea35e061",
+    "url": "/home/static/css/main.a06eaec1.chunk.css"
   },
   {
-    "revision": "0e1d62301514618176d1",
-    "url": "/home/static/js/main.0e1d6230.chunk.js"
+    "revision": "6370d2024104ea35e061",
+    "url": "/home/static/js/main.6370d202.chunk.js"
   },
   {
-    "revision": "2c7ae363a3350b9f5e6a",
-    "url": "/home/static/css/1.1a37e2bb.chunk.css"
+    "revision": "bae87e73c63d6de9dfa1",
+    "url": "/home/static/css/1.f440ea9f.chunk.css"
   },
   {
-    "revision": "2c7ae363a3350b9f5e6a",
-    "url": "/home/static/js/1.2c7ae363.chunk.js"
+    "revision": "bae87e73c63d6de9dfa1",
+    "url": "/home/static/js/1.bae87e73.chunk.js"
   },
   {
     "revision": "e258ea1747dec9816919",
@@ -126,6 +126,38 @@ self.__precacheManifest = [
   {
     "revision": "08e830e15e434e201eb149afcb7c0c84",
     "url": "/home/static/media/Memory_Game_3_-_Screenshot.08e830e1.jpg"
+  },
+  {
+    "revision": "3eaf2800a8363c4ca3bbe0112bafb269",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot.3eaf2800.jpg"
+  },
+  {
+    "revision": "2122d6fbc1bf263bb9b7556680467b83",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_2.2122d6fb.jpg"
+  },
+  {
+    "revision": "d325441591153dda1d7660f271ed3580",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_3.d3254415.jpg"
+  },
+  {
+    "revision": "190fe059f26cf6130e9337d47f4a8b19",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_4.190fe059.jpg"
+  },
+  {
+    "revision": "abdd9691dbf89d1bd97b3ccf71b2c3b5",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_5.abdd9691.jpg"
+  },
+  {
+    "revision": "f9c2c68de26c4e8d068e877bbb281a43",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_6.f9c2c68d.jpg"
+  },
+  {
+    "revision": "c1eea13d51d98275b7af1891579db43a",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_7.c1eea13d.jpg"
+  },
+  {
+    "revision": "c16811a841cc32874993d95062c76d2a",
+    "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_8.c16811a8.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -1016,7 +1048,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "79cf3fb38d177878fba802dc9c5fc0e2",
+    "revision": "72f002578761ae285dfabe7d429f279f",
     "url": "/home/index.html"
   }
 ];
