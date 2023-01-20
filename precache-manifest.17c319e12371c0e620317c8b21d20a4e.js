@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "534fe11b3d48d1bb551f",
-    "url": "/home/static/css/main.b9a52293.chunk.css"
+    "revision": "124722f23fe8d5052003",
+    "url": "/home/static/css/main.6b820f03.chunk.css"
   },
   {
-    "revision": "534fe11b3d48d1bb551f",
-    "url": "/home/static/js/main.534fe11b.chunk.js"
+    "revision": "124722f23fe8d5052003",
+    "url": "/home/static/js/main.124722f2.chunk.js"
   },
   {
-    "revision": "b33592cec71fdefee82d",
-    "url": "/home/static/css/1.9fff617b.chunk.css"
+    "revision": "5c53b062bfceb14137da",
+    "url": "/home/static/css/1.5998d86d.chunk.css"
   },
   {
-    "revision": "b33592cec71fdefee82d",
-    "url": "/home/static/js/1.b33592ce.chunk.js"
+    "revision": "5c53b062bfceb14137da",
+    "url": "/home/static/js/1.5c53b062.chunk.js"
   },
   {
     "revision": "e258ea1747dec9816919",
     "url": "/home/static/js/runtime~main.e258ea17.js"
   },
   {
-    "revision": "42e6fe3d6683201f3fe53e867ec22935",
-    "url": "/home/static/media/pl.42e6fe3d.svg"
-  },
-  {
     "revision": "9a9297cff1d2c76a12c827d77960f57f",
     "url": "/home/static/media/gb.9a9297cf.svg"
+  },
+  {
+    "revision": "42e6fe3d6683201f3fe53e867ec22935",
+    "url": "/home/static/media/pl.42e6fe3d.svg"
   },
   {
     "revision": "f1a94204c1c0e05991dd4b45ef51b65f",
@@ -66,22 +66,6 @@ self.__precacheManifest = [
   {
     "revision": "1b485662db221f15f4c7fee4944c784a",
     "url": "/home/static/media/Równanie_Kwadratowe_-_Screenshot_3.1b485662.jpg"
-  },
-  {
-    "revision": "180dcf0f66c85c43391156dd528ea5ef",
-    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_1.180dcf0f.jpg"
-  },
-  {
-    "revision": "522fb76b4ba3019bdda9932b18e7ba15",
-    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_2.522fb76b.jpg"
-  },
-  {
-    "revision": "ebd4e3ac3157dff3b42a4e8556b942a8",
-    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_3.ebd4e3ac.jpg"
-  },
-  {
-    "revision": "6115fb949e57ff34af924ac6388d5371",
-    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_4.6115fb94.jpg"
   },
   {
     "revision": "92b48edf22af2e8a042349e2529f0fd2",
@@ -158,6 +142,22 @@ self.__precacheManifest = [
   {
     "revision": "c16811a841cc32874993d95062c76d2a",
     "url": "/home/static/media/Narzedzie_LaSogno_-_Screenshot_8.c16811a8.jpg"
+  },
+  {
+    "revision": "180dcf0f66c85c43391156dd528ea5ef",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_1.180dcf0f.jpg"
+  },
+  {
+    "revision": "522fb76b4ba3019bdda9932b18e7ba15",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_2.522fb76b.jpg"
+  },
+  {
+    "revision": "ebd4e3ac3157dff3b42a4e8556b942a8",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_3.ebd4e3ac.jpg"
+  },
+  {
+    "revision": "6115fb949e57ff34af924ac6388d5371",
+    "url": "/home/static/media/Survive_The_Clash_Of_Spiders_-_Screenshot_4.6115fb94.jpg"
   },
   {
     "revision": "2f0263e0853b6f2c798368f73ac87cde",
@@ -1048,7 +1048,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/zw.bd54e200.svg"
   },
   {
-    "revision": "1df5fd3d3248dff156fa2d4464be241e",
+    "revision": "b4d0a38a1c9f3895b5f1d82e31a63bc4",
     "url": "/home/index.html"
   }
 ];
